@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -14,12 +15,16 @@ export default function Home() {
           priority
         />
         <div className={styles.intro}>
-          <h1>Student Name</h1>
+          <h1>Aviv Oshri</h1>
 
-            Here your app should come....
+          Here your app should come....
 
+          <br /><br />
+
+          <Link href="/system/posts">Go to Posts</Link>
         </div>
       </main>
     </div>
   );
 }
+np
