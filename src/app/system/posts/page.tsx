@@ -1,5 +1,5 @@
 import Posts from "../../../components/Posts";
-
+//check
 export default function PostsPage() {
   return (
     <div>
